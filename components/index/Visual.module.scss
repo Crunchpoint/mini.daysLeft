@@ -1,0 +1,47 @@
+.section_one {
+  .contents {
+    .details {
+      display: flex;
+      justify-content: space-evenly;
+      line-height: 3rem;
+      font-size: 1.35rem;
+      .president_pic {
+      }
+      .president_date {
+        display: flex;
+        flex: 0.85;
+        flex-direction: column;
+        justify-content: space-evenly;
+        span {
+          font-weight: bold;
+          font-size: inherit;
+        }
+        .how_long {
+        }
+        .how_many_days {
+        }
+        .ps {
+          font-weight: normal;
+          span {
+            width: fit-content;
+            font-size: 0.825rem;
+            color: #f00;
+          }
+        }
+      }
+    }
+    .contact {
+      margin: 2rem 0 0;
+      display: flex;
+      justify-content: flex-end;
+      a {
+        display: flex;
+        align-items: center;
+        width: fit-content;
+        img {
+          padding: 0 0.5rem;
+        }
+      }
+    }
+  }
+}
